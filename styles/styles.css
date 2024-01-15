@@ -104,30 +104,83 @@ nav li a {
 
 
 /* our destination */
-.destination{
+.destination {
+    margin-top: 100px;
+
+}
+
+.destination-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+.destination-img {
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.destination-img img {
+    padding: 10px;
+}
+
+/* chose us */
+
+.choose-us {
+    text-align: center;
     margin-top: 100px;
 }
-.destination-header{
-text-align: center;
-margin-bottom: 50px;
+
+.hotel {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.hotel-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 50px;
+    width: 500px;
+    height: 284px;
+
+}
+
+.hotel-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 50px;
+    width: 500px;
+    height: 284px;
 }
 
 
 
-.shared-h2{
 
-    margin-top: -150px;
-    color: white;
-    font-size: 28px;
-    font-weight: 800;
+.hotel-3 {
+
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    /* text-align: center; */
+    padding: 50px;
+    width: 500px;
+    height: 284px;
+    margin-left: 400px;
+    margin-top: 30px;
+
+
 }
 
 
 
-.destination-img{
-    text-align: center;
 
-}
+
 
 
 
@@ -139,12 +192,14 @@ margin-bottom: 50px;
 
 @media screen and (max-width:600px) {
 
-    nav ,
+    nav,
     .popular-item,
-    .destination-img{
+    .destination-img,
+    .hotel {
         flex-direction: column;
         text-align: center;
-          
+       
+
 
     }
 
@@ -152,5 +207,19 @@ margin-bottom: 50px;
         width: 100%;
         margin-top: 20px;
     }
- 
+
+    .hotel-1,
+    .hotel-2 {
+        margin-left: 20px;
+        padding: 50px;
+        margin-top: 30px;
+
+    }
+
+    .hotel-3 {
+        margin: 0 auto;
+        padding: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
 }
