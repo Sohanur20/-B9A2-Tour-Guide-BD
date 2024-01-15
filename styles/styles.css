@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 
 }
 
 /* nav section */
-header{
-max-width: 1200px;
-margin: 0 auto;
+header,
+main {
+    max-width: 1400px;
+    margin: 0 auto;
 
 }
 
@@ -19,12 +20,16 @@ nav {
     align-items: center;
 }
 
-nav div{
-    display: flex;
-    gap:18px ;
+.nav-title {
+    margin-right: 325px;
 }
 
-nav h2{
+nav div {
+    display: flex;
+    gap: 18px;
+}
+
+nav h2 {
     color: #131318;
     font-size: 2rem;
     font-weight: 800;
@@ -50,6 +55,7 @@ nav li a {
     text-decoration: none;
     color: #424242;
 }
+
 /* nav end */
 
 
@@ -59,8 +65,41 @@ nav li a {
 
 
 
+.popular-item {
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 
 
+}
+
+.shared-desk {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.read-more {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 35px;
+
+}
 
 
 
@@ -79,17 +118,11 @@ nav li a {
 
 @media screen and (max-width:600px) {
 
-    nav{
+    nav ,
+    .popular-item{
         flex-direction: column;
-        text-align: center;
-        width: 500px;
+        
+
     }
-    
+
 }
-
-
-
-
-
-
-
