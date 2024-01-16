@@ -130,13 +130,6 @@ nav li a {
 
 
 
-.drop-down{
-   
-   
-}
-
-
-
 
 
 
@@ -409,9 +402,9 @@ form input {
 
 
 .roted {
-    width: 324px;
-    height: 120px;
-    padding: 20px;
+    width: 300px;
+    height: 100px;
+    padding: 20px 30px;
     text-align: center;
     border-radius: 16px;
     background: #FF5400;
@@ -421,18 +414,18 @@ form input {
 
 }
 
-.roted h2 {
+.roted p {
     color: #FFF;
     text-align: center;
-
     font-size: 24px;
-
     font-weight: 400;
+
 
 
 }
 
-.roted p {
+.roted h2 {
+    margin-top: -20px;
     color: #FFF;
 
     font-size: 32px;
@@ -516,12 +509,19 @@ footer {
 
 
     .banner-title {
+        font-size: 3rem;
+        margin-top: 30px;
 
-        margin-top: -10px;
+    }
+
+    .banner .shared-desk {
+        width: 500px;
+        margin: -35px auto;
+
     }
 
     .input-container {
-        margin-top: -30px;
+        margin-top: 35px;
     }
 
     .company {
@@ -530,10 +530,26 @@ footer {
 
 
     .newsletter-1st {
-        margin-left: 100px;
-
-
+        /* margin-left: 100px; */
+        width: 100%;
+        margin: 0 0 0 108px;
     }
+    .news-form{ 
+
+
+        margin: 0 auto;
+      
+       
+    }
+    .news-form input{
+        display: block;
+        text-align: center;
+    }
+
+
+
+
+
 
 
     .perfect-place {
@@ -559,6 +575,8 @@ footer {
         margin-top: 20px;
         margin-left: 30px;
     }
+
+
 
 
     .img1,
@@ -587,11 +605,18 @@ footer {
     }
 
     .new-img img {
-        height: 80%;
-        width: 50%;
+
+
         padding-left: 100px;
 
     }
+
+
+    .roted {
+        margin-left: 380px;
+        margin-top: -215px;
+    }
+
 
     form input {
         width: 200px;
