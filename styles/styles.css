@@ -36,10 +36,13 @@ nav div {
     gap: 18px;
 }
 
-nav h2 {
-    color: #131318;
+nav h2 ,.footer-h2 {
+    /* color: #131318; */
     font-size: 2rem;
     font-weight: 800;
+background: linear-gradient(45deg, #ff00ff, #00ffff);
+background-clip: text;
+color: transparent;
 
 }
 
@@ -556,6 +559,9 @@ footer{
 }
 .perfect-place{
     padding-left: 100px;
+}
+nav{
+    margin-right: -30px;
 }
 
 
