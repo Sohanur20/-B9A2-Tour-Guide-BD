@@ -67,7 +67,7 @@ nav li a {
     background-repeat: no-repeat;
     text-align: center;
     height: 500px;
-    padding: 100px;
+  padding-top: 30px;
     border-radius: 16px;
 }
 
@@ -76,7 +76,7 @@ nav li a {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-    margin-top: -20px;
+    /* margin-top: -20px; */
 
 
 }
