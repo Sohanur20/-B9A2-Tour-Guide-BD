@@ -433,7 +433,7 @@ footer{
 
 @media screen and (max-width:600px) {
 
-    nav,
+
     .popular-item,
     .destination-img,
     .hotel,
@@ -527,4 +527,12 @@ footer{
     .kasmir{
         width: 500px;
     }
+
+nav ul{
+    display: none;
+}
+.bars{
+    cursor: pointer;
+}
+
 }
