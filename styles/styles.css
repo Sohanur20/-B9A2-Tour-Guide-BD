@@ -63,6 +63,10 @@ nav li a {
     color: #424242;
 }
 
+.bars{
+    display: none;
+}
+
 /* nav end */
 
 /* banner */
@@ -557,6 +561,8 @@ nav ul{
 }
 .bars{
     cursor: pointer;
+  display: block;
+   
 }
 
 nav{
