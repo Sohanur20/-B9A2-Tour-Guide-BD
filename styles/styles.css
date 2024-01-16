@@ -321,6 +321,8 @@ nav li a {
 }
 
 
+
+
 /* news */
 
 .newsletter-1st {
@@ -446,9 +448,24 @@ footer{
         text-align: center;
         justify-content: center;
 
-
-
     }
+
+    .destination-img img{
+
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+.banner-title{
+   
+   margin-top: -10px;
+}
+.input-container{
+    margin-top: -30px;
+}
+
    .company{
     flex-direction: column;
    }
@@ -535,4 +552,31 @@ nav ul{
     cursor: pointer;
 }
 
+nav{
+    justify-content: center;
+    
+}
+nav .bars{
+
+    margin-left: 200px;
+}
+
+
+.banner{
+    width: 700px;
+}
+
+.popular-item{
+    margin-left: 50px;
+}
+
+
+.video {
+    margin-left: 100px;
+}
+
+footer ,.company {
+    width: 550px;
+
+}
 }
