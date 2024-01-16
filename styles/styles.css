@@ -221,21 +221,83 @@ nav li a {
 
 
 
-.perfect-place{
+.perfect-place {
 
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     margin-top: 120px;
     justify-content: center;
 }
-.li{
+
+.li {
     color: #131318;
 
-font-size: 16px;
+    font-size: 16px;
 
-font-weight: 700;
-line-height: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+/* news */
+
+.newsletter-1st {
+
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 40%;
+    padding: 40px;
+    
+}
+.news{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Newsletter {
+    /* display: flex; */
+    gap: 25px;
+    margin-top: 120px;
+}
+
+
+.hr {
+
+margin: 40px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+
+.news-desk {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+form input {
+    width: 393px;
+    height: 52px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.Subscribe {
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
 }
 
 
@@ -253,7 +315,8 @@ line-height: 26px;
     nav,
     .popular-item,
     .destination-img,
-    .hotel ,.perfect-place {
+    .hotel,
+    .perfect-place , .news {
         flex-direction: column;
         text-align: center;
         justify-content: center;
@@ -261,7 +324,14 @@ line-height: 26px;
 
 
     }
-    .perfect-place{
+    .newsletter-1st {
+margin-left: 100px;
+
+
+    }
+
+
+    .perfect-place {
         margin: 0 auto;
     }
 
@@ -291,7 +361,7 @@ line-height: 26px;
 
         flex-direction: column;
         margin: 0 100px;
-      
+
     }
 
     .img2 {
@@ -306,8 +376,21 @@ line-height: 26px;
         display: flex;
     }
 
-    .img2-3image{
-       margin-left: 400px;
-       text-align: center;
+    .img2-3image {
+        margin-left: 400px;
+        text-align: center;
+    }
+
+    .new-img img{
+        height: 80%;
+        width: 50%;
+       padding-left: 100px;
+        
+    }
+
+    form input {
+        width: 200px;
+        height: 52px;
+       
     }
 }
