@@ -221,6 +221,22 @@ nav li a {
 
 
 
+.perfect-place{
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: center;
+}
+.li{
+    color: #131318;
+
+font-size: 16px;
+
+font-weight: 700;
+line-height: 26px;
+}
 
 
 
@@ -237,13 +253,16 @@ nav li a {
     nav,
     .popular-item,
     .destination-img,
-    .hotel {
+    .hotel ,.perfect-place {
         flex-direction: column;
         text-align: center;
         justify-content: center;
 
 
 
+    }
+    .perfect-place{
+        margin: 0 auto;
     }
 
     .destination-img img {
