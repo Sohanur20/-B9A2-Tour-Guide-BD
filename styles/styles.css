@@ -448,7 +448,9 @@ footer{
 
 
     }
-   
+   .company{
+    flex-direction: column;
+   }
 
    
     .newsletter-1st {
