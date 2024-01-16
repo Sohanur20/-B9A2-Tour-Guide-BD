@@ -20,7 +20,7 @@ nav {
     align-items: center;
 }
 
-nav img{
+nav img {
 
     width: 50px;
     height: 50px;
@@ -63,7 +63,7 @@ nav li a {
     color: #424242;
 }
 
-.bars{
+.bars {
     display: none;
 }
 
@@ -73,12 +73,12 @@ nav li a {
 .banner {
 
 
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../assets/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../assets/Images/Group\ 13\ \(1\)\ \(1\).png');
     margin: 0;
     background-repeat: no-repeat;
     text-align: center;
     height: 500px;
-  padding-top: 30px;
+    padding-top: 30px;
     border-radius: 16px;
 }
 
@@ -87,7 +87,7 @@ nav li a {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
-  
+
 
 
 }
@@ -111,11 +111,11 @@ nav li a {
     border: none;
     width: 174px;
     height: 52px;
-   padding-left: 20px;
+    padding-left: 20px;
 }
 
-.Find-Now{
-   
+.Find-Now {
+
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -398,8 +398,44 @@ form input {
 }
 
 
+.roted {
+    width: 324px;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    margin-left: 300px;
+    margin-top: -220px;
 
-footer{
+}
+
+.roted h2 {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+
+}
+
+.roted p {
+    color: #FFF;
+
+    font-size: 32px;
+
+    font-weight: 800;
+
+
+}
+
+
+
+
+footer {
 
     margin-top: 100px;
     text-align: center;
@@ -408,7 +444,7 @@ footer{
     padding: 50px;
 }
 
-.icon img{
+.icon img {
 
     width: 50px;
     height: 50px;
@@ -419,8 +455,8 @@ footer{
 
 
 /* extra section */
-.company{
-   
+.company {
+
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
@@ -429,11 +465,11 @@ footer{
     border: outset;
     padding: 50px;
     cursor: pointer;
-  
+
 }
 
 
-:hover .company{
+:hover .company {
     background: salmon;
     transition-duration: 2s;
 }
@@ -451,17 +487,17 @@ footer{
     .destination-img,
     .hotel,
     .perfect-place,
-    .news ,
+    .news,
     .banner,
-    .input-container ,
-    footer{
+    .input-container,
+    footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
 
     }
 
-    .destination-img img{
+    .destination-img img {
 
         height: 100%;
         width: 100%;
@@ -469,19 +505,20 @@ footer{
 
 
 
-.banner-title{
-   
-   margin-top: -10px;
-}
-.input-container{
-    margin-top: -30px;
-}
+    .banner-title {
 
-   .company{
-    flex-direction: column;
-   }
+        margin-top: -10px;
+    }
 
-   
+    .input-container {
+        margin-top: -30px;
+    }
+
+    .company {
+        flex-direction: column;
+    }
+
+
     .newsletter-1st {
         margin-left: 100px;
 
@@ -552,44 +589,47 @@ footer{
 
     }
 
-    .kasmir{
+    .kasmir {
         width: 500px;
     }
 
-nav ul{
-    display: none;
-}
-.bars{
-    cursor: pointer;
-  display: block;
-   
-}
+    nav ul {
+        display: none;
+    }
 
-nav{
-    justify-content: center;
-    
-}
-nav .bars{
+    .bars {
+        cursor: pointer;
+        display: block;
 
-    margin-left: 200px;
-}
+    }
 
+    nav {
+        justify-content: center;
 
-.banner{
-    width: 700px;
-}
+    }
 
-.popular-item{
-    margin-left: 50px;
-}
+    nav .bars {
+
+        margin-left: 200px;
+    }
 
 
-.video {
-    margin-left: 100px;
-}
+    .banner {
+        width: 700px;
+    }
 
-footer ,.company {
-    width: 550px;
+    .popular-item {
+        margin-left: 50px;
+    }
 
-}
+
+    .video {
+        margin-left: 100px;
+    }
+
+    footer,
+    .company {
+        width: 550px;
+
+    }
 }
