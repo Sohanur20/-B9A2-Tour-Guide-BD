@@ -336,6 +336,7 @@ nav li a {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-bottom: 200px;
 }
 
 .Newsletter {
@@ -404,11 +405,24 @@ footer{
 }
 
 
+/* extra section */
+.company{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+    border: outset;
+    padding: 50px;
+    cursor: pointer;
+}
 
 
-
-
-
+:hover .company{
+    background: salmon;
+    transition-duration: 2s;
+}
 
 
 
