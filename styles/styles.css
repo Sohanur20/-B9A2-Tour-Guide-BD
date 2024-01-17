@@ -100,7 +100,7 @@ nav li a {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: flex;
-
+margin: 0 auto;
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
@@ -109,7 +109,7 @@ nav li a {
 }
 
 
-.input-container input {
+.input-container select , input{
     border-radius: 8px;
     border: none;
     width: 174px;
@@ -117,7 +117,7 @@ nav li a {
     padding-left: 20px;
 }
 
-.Find-Now {
+.find-Now {
 
     border-radius: 8px;
     background: #FF5400;
@@ -126,6 +126,12 @@ nav li a {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    justify-content: center;
+    gap: 20px;
 
 }
 
